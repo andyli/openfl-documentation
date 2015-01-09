@@ -293,3 +293,8 @@ Use the `path` method to add directories to your system's PATH environment varia
 
     path ("path/to/add/to/system/PATH");
 
+## LogHelper.error
+
+Use `LogHelper.error` to throw your own errors during the build process, if necessary.
+
+    LogHelper.error ("Something is wrong");
