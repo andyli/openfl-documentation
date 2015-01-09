@@ -243,9 +243,3 @@ Use `<dependency />` tags to specify native frameworks or references that are re
 Use `<path />` tags to add directories to your system's PATH environment variable.
 
     <path value="path/to/add/to/system/PATH" />
-
-### LogHelper.error
-
-Use `LogHelper.error` to throw your own errors during the build process, if necessary.
-
-    LogHelper.error ("Something is wrong");
